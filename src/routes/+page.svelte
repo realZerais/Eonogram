@@ -1,21 +1,133 @@
 <script lang="ts">
-    import { Button } from "$lib/components/ui/button";
-
+    import * as Card from "$lib/components/ui/card/index.js";
 
 </script>
 
-   
-<header class="border-border/40 bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b backdrop-blur">
-    <div class="container flex h-14 max-w-screen-2xl items-center">
-        <div class="mr-4 sm:hidden md:hidden lg:flex">
-            <a href="/" class="mr-6 flex items-center space-x-2" > LOGO </a>
-            <nav class="flex items-center gap-6 text-sm">
-                <a href="/" class="hover:text-foreground/80 transition-colors text-foreground/60 capitalize">Test</a>
-                <a href="/" class="hover:text-foreground/80 transition-colors text-foreground/60 capitalize">Test</a>
-                <a href="/auth/login" class="hover:text-foreground/80 transition-colors text-foreground/60 capitalize">Login</a>
+<div class="col-span-3">
+    <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
 
-            </nav>
-        </div>
-       
-    </div>
-</header>
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+
+
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+
+      <Card.Root>
+        <Card.Header>
+          <Card.Title>I always wanna die, sometimes</Card.Title>
+          <Card.Description>By: Dave Siarez</Card.Description>
+        </Card.Header>
+        <Card.Content>
+          <p>Card Content</p>
+        </Card.Content>
+        <Card.Footer>
+          <p>Card Footer</p>
+        </Card.Footer>
+      </Card.Root>
+</div>
