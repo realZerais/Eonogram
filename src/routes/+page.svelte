@@ -1,133 +1,50 @@
 <script lang="ts">
-    import * as Card from "$lib/components/ui/card/index.js";
+  import Post from "$lib/components/custom/Post.svelte"
+  
+  export let data;
+  const {posts, users} = data;
+  console.log(data);
 
 </script>
 
 <div class="col-span-3">
-    <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
+  {#each posts as post}
 
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
+    <Post title={post.title} content={post.content}/>
 
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
+  {/each}
+</div>  
 
 
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
 
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
+<!-- <script lang="ts">
+  import * as Card from "$lib/components/ui/card/index.js";
+  import Post from "$lib/components/custom/Post.svelte"
 
-      <Card.Root>
-        <Card.Header>
-          <Card.Title>I always wanna die, sometimes</Card.Title>
-          <Card.Description>By: Dave Siarez</Card.Description>
-        </Card.Header>
-        <Card.Content>
-          <p>Card Content</p>
-        </Card.Content>
-        <Card.Footer>
-          <p>Card Footer</p>
-        </Card.Footer>
-      </Card.Root>
-</div>
+  let title = 'test';
+  let description = 'test';
+  let content = 'test';
+  let footer = 'test';
+
+</script>
+
+<div class="col-span-3">
+  
+    <Post {title} {description} {content} {footer}/>
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+    <Post {title} {description} {content} {footer}/>
+
+</div> -->
